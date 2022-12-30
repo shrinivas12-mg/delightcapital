@@ -1,0 +1,82 @@
+.anchortag {
+  text-decoration: none;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.maindiv {
+  width: 100%;
+  height: 5em;
+  display: grid;
+  grid-template-columns: 5rem 2fr 15fr 1fr 1fr 5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+
+.menulink{
+    grid-column: 3/4;
+}
+
+.menulink ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 1.8em;
+}
+
+.loginbox{
+    grid-column: 4/5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+   display: flex;
+   justify-content: center;
+}
+
+.round{
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin:1.2em ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.whish{
+    margin-top: 0.2em;
+}
+
+.loginText{
+    grid-column: 5/6;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menulink :hover > a{
+transform-origin: left;
+color: #6e9500;
+transition: 0.55;
+}
+
+.menulink a{
+    font-family: Roboto;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.1rem;
+letter-spacing: 0em;
+text-align: left;
+color: #202324;
+}

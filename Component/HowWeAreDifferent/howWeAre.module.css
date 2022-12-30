@@ -1,0 +1,73 @@
+.mainCntr{
+    background-image: url("../../assets/png/Background.png");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.IllustrationText{
+    font-family: Roboto;
+font-size: 1.8em;
+font-weight: 600;
+line-height: 2.1em;
+letter-spacing: 0em;
+text-align: left;
+margin: 0 0 0 2em;
+}
+
+.IllustrationTextSmall{
+    font-family: Roboto;
+font-size: 1.2em;
+font-weight: 600;
+line-height: 1.8em;
+letter-spacing: 0em;
+text-align: left;
+color:#6E9500;
+margin: 0.5em 0 0 3.2em;
+}
+
+.partition{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.rightCntr{
+    border: 1px solid lightgrey;
+    width :35rem;
+    height:  45rem;
+    justify-content: center;
+    margin:5em 10em 0 0;
+    background-color: #FFFFFF;
+}
+
+.points{
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+    justify-content: center;
+}
+
+.howWeAre{
+    display: flex;
+    justify-content:center ;
+}
+
+.imageIcon{
+    margin-top: 1em;
+}
+
+.textHeader{
+    margin-left: 1em;
+}
+
+.textsmall{
+    margin-left: 1em;
+}
+
+.arrowIcon{
+    margin-top: 1em;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.banner {
+  background-image: url("../../assets/png/banner1.png");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+
+.bannerTextContr{
+    display: flex;
+    /* background-color: red; */
+    flex: 1;
+    justify-content: center;
+    width: 80%;
+    margin-top: 2em;
+    padding: 0;
+}
+
+.tagsContr{
+    display: flex;
+}
+
+.tagText{
+    font-size: 1em;
+    background-color: aliceblue;
+}
+
+.bannnerMainText{
+    font-family: Roboto;
+font-size: 3.6rem;
+font-weight: 500;
+/* line-height: 2.5rem; */
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 0;
+}
+
+.bannerTextsmall{
+    font-family: Roboto;
+font-size: 2.5em;
+font-weight: 200;
+/* line-height: 2em; */
+letter-spacing: 0em;
+text-align: left;
+color: #212325;
+margin-bottom: 0;
+}
+
